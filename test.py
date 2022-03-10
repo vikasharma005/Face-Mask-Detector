@@ -10,7 +10,7 @@ size = 4
 webcam = cv2.VideoCapture(0) #Use camera 0
 
 # We load the xml file
-classifier = cv2.CascadeClassifier('/home/shivam/.local/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_default.xml')
+classifier = cv2.CascadeClassifier('/home/admin/.local/lib/python3.9/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 
 while True:
     (rval, im) = webcam.read()
